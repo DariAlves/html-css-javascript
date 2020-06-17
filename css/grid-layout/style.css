@@ -1,0 +1,27 @@
+/* 
+    Definir o grid-area dos elementos principais
+*/
+
+.logo {
+    grid-area: logo;
+}
+
+.main-menu {
+    grid-area: menu;
+}
+
+.content-area {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.sponsors-wrapper {
+    grid-area: sponsors;
+}
+
+.footer {
+    grid-area: footer;
+}
