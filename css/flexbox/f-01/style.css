@@ -1,0 +1,17 @@
+/* 
+    justify-content: main axis (x) - horizontal 
+    align-items: cross axis (y) - vertical 
+*/
+
+.center {
+    background: indigo;
+    color: #fafafa;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: indigo;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    min-height: 3rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.items,
+.last-item {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.items{
+    margin-right: 1.5rem;
+}
+
+/* 
+    margin-left: auto - faz com que o elemento use toda a margem dispnível desse lado.
+*/
+
+.last-item {
+    margin-left: auto;
+}

@@ -1,0 +1,10 @@
+.flexInline {
+    display: inline-flex;
+    align-items: center;
+    height: 200px;
+    padding: 0 4px;
+    background: indigo;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fafafa;
+}
