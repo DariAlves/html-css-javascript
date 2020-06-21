@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: indigo;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 2px;
+    font-size: 2em;
+    padding: 5px 3px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: linear 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
