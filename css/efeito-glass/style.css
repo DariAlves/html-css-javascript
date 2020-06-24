@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url(./img/reinis-birznieks-unsplash.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .box-glass {
+    margin: 0 10%;
+    width: 600px;
+    padding: 40px;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .8);
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.banner .box-glass::before {
+    content: '';
+    position: absolute;
+    background-image: url(./img/reinis-birznieks-unsplash.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    filter: blur(3px);
+    border-radius: 8px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.banner .box-glass h2,
+.banner .box-glass p {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
