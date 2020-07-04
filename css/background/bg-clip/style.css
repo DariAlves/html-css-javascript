@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: transparent;
+    background: url(naruto.jpg) center top / cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    font-size: 470px;
+    letter-spacing: 15px;
+    position: relative;
+}
+
+.naruto::before {
+    content: 'naruto';
+    color: transparent;
+    background: url(naruto.jpg) center top / cover no-repeat;
+    filter: sepia(1);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    font-size: 470px;
+    letter-spacing: 15px;
+    position: absolute;
+    z-index: 999;
+} 
+
+/* 
+    === Background-clip ===
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    
+*/
