@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Css -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
     <title>Modal Menu Slider</title>
 </head>
+
 <body>
-    
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>Landing Page</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae dolorum enim!</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this landing page about?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cumque porro veniam provident doloribus dolor
+            at dolore, sapiente autem laborum nobis harum consequatur blanditiis eligendi ipsum. Minus temporibus
+            quibusdam quisquam, reprehenderit dicta saepe consequatur ex impedit quos, ab mollitia a.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quod similique porro quia commodi nisi,
+            reprehenderit, voluptas praesentium voluptatibus obcaecati officia molestias omnis necessitatibus
+            distinctio.</p>
+
+        <h2>Tell Me More</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cumque porro veniam provident doloribus dolor
+            at dolore, sapiente autem laborum nobis harum consequatur blanditiis eligendi ipsum. Minus temporibus
+            quibusdam quisquam, reprehenderit dicta saepe consequatur ex impedit quos, ab mollitia a.</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil doloribus vitae nisi quis sed qui
+            placeat, architecto minima, maxime omnis eum sint sit. Perspiciatis minima quos, debitis placeat molestiae
+            consequatur, nostrum repellendus architecto error, adipisci dolorum laborum veritatis sequi voluptate
+            voluptas ad consequuntur earum sed quod delectus quo. Iusto, laudantium quasi ullam aliquam sapiente,
+            laboriosam reiciendis vero, eos dolor minus cupiditate eligendi nam velit hic nostrum blanditiis quidem quia
+            est doloribus. Asperiores eligendi saepe nemo dolorem pariatur, nulla ipsum?</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="index.js"></script>
 </body>
+
 </html>
