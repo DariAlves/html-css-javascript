@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.cards h1 {
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rows {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* .row-1, 
+.row-2 {
+    display: flex;
+    align-items: center;
+} */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.content .fab {
+    font-size: 70px;
+    margin: 16px 0;
+}
+
+.content > * {
+    flex: 1 1 100%;
+}
+
+.content:hover {
+    color: #fff;
+}
+
+.content:hover a {
+    border-color: #fff;
+    background: #fff;
+}
+
+.content-1:hover {
+    border-color: #1da1f2;
+    background: #1da1f2;
+}
+
+.content-1:hover a {
+    color: #1da1f2;
+}
+
+.content-2:hover {
+    border-color: #8a49a1;
+    background: linear-gradient(to bottom right, #ffdf9e,#ffc273, #e56969, #c1558b, #8a49a1);
+}
+
+.content-2:hover a {
+    color: #e1306c;
+}
+
+.content-3:hover {
+    border-color: #3b5998;
+    background: #3b5998;
+}
+
+.content-3:hover a {
+    color: #3b5998;
+}
+
+.content-4:hover {
+    border-color: #ff0000;
+    background: #ff0000;
+}
+
+.content-4:hover a {
+    color: #ff0000;
+}
+
+.content-5:hover {
+    border-color: #653b7d;
+    background: #653b7d;
+}
+
+.content-5:hover a {
+    color: #653b7d;
+}
+
+.content-6:hover {
+    border-color: #728ad4;
+    background: #728ad4;
+}
+
+.content-6:hover a {
+    color: #728ad4;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.content a {
+    margin: 22px 0;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border: 1px solid #000;
+    border-radius: 25px;
+    transition: .3s ease;
+}
+
+
+/* @media screen and (max-width: 960px) {
+    .row-1, .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+} */
+
+@media screen and (max-width: 960px) {
+    .rows {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
