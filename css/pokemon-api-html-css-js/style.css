@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 180px;
+    height: 100%;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    background: #ccc;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+    box-shadow:1px 1px 3px #000;
+    transition: 0.3s ease;
+}
+
+.card p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.card img {
+    width: 120px;
+}
+
+/* .card:hover {
+    transform: scale(1.5);
+} */
