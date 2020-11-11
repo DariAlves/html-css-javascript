@@ -1,0 +1,18 @@
+body {
+    background: #000;
+}
+.box {
+    padding-top: 10%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+    transition: all 1s ease;
+}
+
+img:hover {
+    transform: scale(1.09);
+}
